@@ -1,0 +1,16 @@
+{
+  "name": "json_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateData.js",
+  "scripts": {
+    "start": "concurrently \"tsc\" \"node ./dist/generateData.js\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.19",
+    "concurrently": "^7.6.0"
+  }
+}
